@@ -62,7 +62,7 @@ Finetune AudioSep from pretrained checkpoint:
 The development set including Clotho v2 and augmented FSD50k datasets can be found [here](https://zenodo.org/records/10887496).
 
 ## Baseline model
-For the baseline model, we trained the AudioSep model using Clotho and augmented FSD50K datasets for 200k steps with a batch size of 16 using one Nvidia A100 GPU (around 1 day). The checkpoint of the baseline model can be found here.
+For the baseline model, we trained the AudioSep model using Clotho and augmented FSD50K datasets for 200k steps with a batch size of 16 using one Nvidia A100 GPU (around 1 day). The checkpoint of the baseline model can be found [here](https://zenodo.org/records/10887460).
 <hr>
 
 ## Evaluation
