@@ -268,8 +268,8 @@ class ResUNet30_Base(nn.Module, Base):
     def __init__(self, input_channels, output_channels):
         super(ResUNet30_Base, self).__init__()
 
-        window_size = 2048
-        hop_size = 320
+        window_size = 1024
+        hop_size = 160
         center = True
         pad_mode = "reflect"
         window = "hann"
