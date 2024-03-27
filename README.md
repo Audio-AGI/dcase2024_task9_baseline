@@ -66,7 +66,7 @@ For the baseline model, we trained the AudioSep model using Clotho and augmented
 <hr>
 
 ## Evaluation
-* Download the audio files and the indexes of the synthetic validation data from Zenodo. 
+* Download the audio files and the indexes of the synthetic validation data from [Zenodo](https://zenodo.org/records/10886481). 
 
 ```yaml
 # paired data indexes for evaluation
