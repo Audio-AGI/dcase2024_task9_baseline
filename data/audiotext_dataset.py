@@ -53,7 +53,7 @@ class AudioTextDataset(Dataset):
             text = self.all_data_json[index]['caption']
 
             # drop short utterance
-            if audio_data.size(1) < self.sampling_rate * 1:
+            if audio_data.size(1) < self.sampling_rate * 0.5:
                 raise Exception(f'{audio_path} is too short, drop it ...') 
             
             return text, audio_data, audio_rate
